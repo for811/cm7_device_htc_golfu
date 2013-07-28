@@ -1,4 +1,4 @@
-CyanogenMod 7.2 NIGHTLY  for HTC Explorer(Pico)
+CyanogenMod 7.2 NIGHTLY  for HTC Desire C(Golfu)
 =======================
 
 How to init repository
@@ -24,7 +24,7 @@ Then sync up:
 
 This may took few hours depending on your internet speed.
 
-You will get full CyanogenMod repo with pico device folder (device/htc/pico), ready to build CM for Pico
+You will get full CyanogenMod repo with pico device folder (device/htc/golfu), ready to build CM for Pico
 
 How to build
 ------------
@@ -33,13 +33,13 @@ This step assumes you have adb installed and configured - google for it if you d
 
 Start the build:
 
-    . build/envsetup.sh && brunch pico
+    . build/envsetup.sh && brunch golfu
 
 Now Android is building. Now you need to wait quite a long time (depending on your hardware) for the message:
 
-    Package complete: /home/xxxxxusername/android/system/out/target/product/pico/update-xxxxxxxx-nightly-pico-signed.zip
+    Package complete: /home/xxxxxusername/android/system/out/target/product/golfu/update-xxxxxxxx-nightly-golfu-signed.zip
 
-Now in folder out/target/pico/ you will find flashable zip called update-xxxxxxxx-nightly-pico-signed.zip with your built ROM. Flash it and enjoy! Voila!
+Now in folder out/target/pico/ you will find flashable zip called update-xxxxxxxx-nightly-golfu-signed.zip with your built ROM. Flash it and enjoy! Voila!
 
 For more info check:
 --------------------
