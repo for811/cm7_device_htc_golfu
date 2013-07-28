@@ -33,8 +33,6 @@ USE_CAMERA_STUB := false
 
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
-TARGET_PREBUILT_KERNEL := device/htc/golfu/kernel
-LOCAL_KERNEL := device/htc/golfu/kernel
 
 # Info abt chipset(msm7x27a)
 TARGET_BOARD_PLATFORM := msm7k
