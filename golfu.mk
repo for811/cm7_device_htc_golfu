@@ -30,11 +30,6 @@ $(call inherit-product, device/htc/common/common.mk)
 DEVICE_PACKAGE_OVERLAYS += device/htc/golfu/overlay
 PRODUCT_LOCALES += mdpi
 
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-	LOCAL_KERNEL := device/htc/golfu/kernel
-else
-	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
-endif
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel
